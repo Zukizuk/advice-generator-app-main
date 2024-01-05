@@ -70,10 +70,10 @@ body {
         &:hover {
           box-shadow: 0px 0px 20px 3px $NeonGreen;
         }
-        &.load {
-          box-shadow: 0px 0px 20px 3px $NeonGreen;
-          animation: rotate 1s linear infinite;
-        }
+      }
+      &.load {
+        box-shadow: 0px 0px 20px 3px $NeonGreen;
+        animation: rotate 1s linear infinite;
       }
     }
   }
