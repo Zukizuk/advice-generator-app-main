@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+  height: unset;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled,
+button:disabled {
+  cursor: default;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a,
+[type="button"],
+[type="reset"],
+[type="submit"],
+button,
+label[for] {
+  cursor: pointer;
+}
+
+header,
+footer {
+  width: 100%;
+  max-width: 100%;
+}
+main {
+  max-width: 100%;
+}
+
+@mixin place__item__center {
+  display: grid;
+  place-items: center;
+}
+@mixin flex__column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex__columnR {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@mixin flex__rowR {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@mixin flex__AC__JC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flex__JSB {
+  display: flex;
+  justify-content: space-between;
+}
